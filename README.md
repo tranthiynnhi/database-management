@@ -1,3 +1,4 @@
+# Đồ án nhóm môn Quản trị cơ sở dữ liệu 
 **Đề tài: Thiết kế cơ sở dữ liệu cho hệ thống quản lý sinh viên của trường Đại học Ngân hàng TPHCM.**
 
 Hệ thống quản lý sinh viên của trường Đại học Ngân hàng TPHCM cần hỗ trợ các yêu cầu lưu trữ như sau: 
