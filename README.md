@@ -53,4 +53,54 @@ hàm, học vị. Mỗi giảng viên thuộc một bộ môn, mỗi bộ môn c
 - Mỗi lớp sinh hoạt do một giảng viên phụ trách. Mỗi giảng viên có thể phụ trách 
 nhiều lớp sinh hoạt. 
 - Mỗi giảng viên phụ trách giảng dạy nhiều lớp học phần, mỗi lớp học phần có thể 
-nhiều giảng viên tham gia giảng dạy. 
+nhiều giảng viên tham gia giảng dạy.
+
+**Yêu cầu:** 
+- Dựa vào các mô tả về yêu cầu lưu trữ của hệ thống quản lý sinh viên, tiến hành phân 
+tích, thiết kế cơ sở dữ liệu hỗ trợ việc lưu trữ, xử lý dữ liệu. Thực hiện đầy đủ các 
+bước thiết kế: Thiết kế cơ sở dữ liệu ý niệm, Thiết kế cơ sở dữ liệu luận lý, Thiết kế 
+cơ sở dữ liệu vật lý.
+- Lưu ý: Bản thiết kế phải đáp ứng đầy đủ theo 4 yêu cầu lưu trữ thông tin. Các yêu 
+cầu về lưu trữ có sự liên quan với nhau, do vậy trong quá trình thiết kế nên đọc và 
+phân tích lần lượt các yêu cầu. 
+- Tiến hành nhập dữ liệu vào các bảng và thực hiện các câu truy vấn sau: 
+
+a. Thống kê số lượng sinh viên của từng ngành. Thông tin hiển thị gồm: Mã ngành, 
+tên ngành, số lượng sinh viên 
+
+b. Lấy số lượng của sinh viên theo từng lớp sinh hoạt. Thông tin hiển thị gồm: Mã 
+lớp, số lượng sinh viên 
+
+c. Lấy danh sách sinh viên không đăng ký môn học trong Học kỳ 2/2023-2024. 
+Thông tin hiển thị gồm: Mã sinh viên, tên sinh viên 
+
+d. Thống kê số lượng môn học giảng dạy của các giảng viên. Thông tin hiển thị 
+gồm: Mã giảng viên, tên giảng viên, số lượng môn học giảng dạy. 
+
+e. Lấy thông tin số lượng môn học đã đăng ký của mỗi sinh viên trong Học kỳ 
+2/2023-2024. Thông tin gồm: Mã SV, Họ, Tên, Mã lớp, Tên học kỳ, năm học, số 
+lượng môn học. 
+
+f. Thống kê số lớp giảng dạy của mỗi giảng viên trong từng học kỳ. Thông tin hiển 
+thị gồm: Tên học kỳ, năm học, mã giảng viên, tên giảng viên, số lớp giảng dạy. 
+
+g. Lấy thông tin những sinh viên đăng ký một môn học từ hai lần trở lên (đăng ký 
+trong hai học kỳ khác nhau). Thông tin gồm: Mã SV, Họ, Tên, Mã Lớp, Mã MH, 
+tên MH. 
+
+h. Lấy thông tin số tín chỉ tích lũy, điểm trung bình tích lũy của mỗi sinh viên. 
+Thông tin gồm: Mã SV, Họ, Tên, Mã Lớp, Tổng tín chỉ tích lũy, điểm trung bình 
+tích lũy 
+
+i. Lấy thông tin những môn học trong học kỳ 1/2023-2024 chưa có điểm. Thông tin 
+gồm: Mã MH, Tên MH.
+
+j. Thống kê điểm trung bình của từng môn học theo học kỳ. Thông tin hiển thị gồm: 
+Tên học kỳ, năm học, tên môn học, điểm trung bình. 
+
+k. Thống kê sinh viên có điểm trung bình tích lũy cao nhất trong từng lớp sinh hoạt. 
+Thông tin hiển thị gồm: Mã lớp sinh hoạt, họ tên sinh viên, điểm trung bình tích 
+lũy. 
+
+**Lưu ý:** Dữ liệu nhập vào các bảng phải đảm bảo đầy đủ để thực hiện được các yêu 
+cầu truy vấn.
